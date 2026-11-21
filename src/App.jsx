@@ -15,7 +15,6 @@ function App() {
 
   function handleAdd(name, grade) {
     setStudents([...students, { id: Date.now(), name, grade }])
-    console.log(students.length)
   }
 
   function handleDelete(id) {
